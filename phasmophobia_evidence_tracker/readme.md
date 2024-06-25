@@ -140,6 +140,7 @@ To get `Cleanse Area`
 | Willow | "willow" "street" |
 | Edgefield | "edgefield" "road" |
 | Ridgeview | "ridgeview" "court" |
+| Point Hope | "point" "hope" |
 | Grafton | "grafton" "farmhouse" |
 | Bleasdale | "bleasdale" |
 | High School | "brownstone" "highschool" "high" "scool"|

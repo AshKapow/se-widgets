@@ -71,6 +71,7 @@ const LOCATIONS = [
   "Willow Street",
   "Edgefield Road",
   "Ridgeview Court",
+  "Point Hope Lighthouse",
   "Grafton Farmhouse",
   "Bleasdale Farmhouse",
   "Brownstone HighSchool",
