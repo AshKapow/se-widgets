@@ -85,11 +85,11 @@ Off -> On -> Negative -> Off -> On -> Negative -> Off -> etc.
 | Event | "event" |
 | EMF | "emf" |
 | Crucifix | "crucifix" |
-| Cleanse Area (NON-Hunt) | "cleanse" |
+| Cleanse Area (Non-Hunt) | "cleanse" "smudge" |
 | Escape | "escape" |
-| Repel Ghost (During Hunt) | "repel" |
+| Repel Ghost (During Hunt) | "repel" "hunt" |
 | <25% Sanity | "sanity" |
-| Firelight | "firelight" |
+| Firelight | "firelight" "candle" |
 | Parabolic Microphone | "microphone" |
 
 ## Sightings

@@ -54,19 +54,22 @@ const POSSESSIONS = {};
 const SIGHTINGS = {};
 
 const OPTIONAL_OBJECTIVES = {
+  candle: "Firelight",
   firelight: "Firelight",
   cleanse: "Cleanse Area",
   crucifix: "Crucifix",
   emf: "EMF",
   escape: "Escape",
   event: "Event",
+  hunt: "Repel",
   microphone: "Microphone",
   motion: "Motion",
   photo: "Photo",
   camera: "Photo",
   repel: "Repel",
   salt: "Salt",
-  sanity: "<25% Sanity"
+  sanity: "<25% Sanity",
+  smudge: "Cleanse Area"
 }
 
 const LOCATIONS = [
