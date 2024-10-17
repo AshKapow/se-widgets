@@ -136,8 +136,8 @@
   },
   "ultravioletCommand": {
     "type": "string",
-    "label": "Ultraviolet Toggle Command",
-    "value": "!gu",
+    "label": "Ultraviolet/Fingerprints Toggle Command",
+    "value": "!gf",
     "group": "Commands"
   },
   "orbsCommand": {
