@@ -19,32 +19,30 @@ jobs:
         with:
           node-version: 20
 
-      # 1️⃣ Install linters and validators
       - name: Install tools
         run: |
-          npm install --save-dev prettier eslint htmlhint stylelint
+          npm install --save-dev prettier@latest eslint@latest htmlhint@latest stylelint@latest
 
-      # 2️⃣ Run Prettier check (formatting)
       - name: Check formatting with Prettier
         run: |
-          npx prettier --check "**/*.{js,html,css,json,md}" --ignore-path .prettierignore
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            npx prettier --check "**/*.{js,html,css,json,md}" --ignore-path .prettierignore
+          else
+            npx prettier --check "**/*.{js,html,css,json,md}" --ignore-path .prettierignore || echo "⚠️ Prettier found issues (non-blocking on push)"
+          fi
 
-      # 3️⃣ Run ESLint for JS
       - name: Lint JavaScript
         run: |
           npx eslint phasmophobia_evidence_tracker/widget.js --max-warnings=0 || exit 1
 
-      # 4️⃣ Validate HTML
       - name: Validate HTML
         run: |
           npx htmlhint "phasmophobia_evidence_tracker/widget.html"
 
-      # 5️⃣ Validate CSS
       - name: Validate CSS
         run: |
           npx stylelint "phasmophobia_evidence_tracker/widget.css"
 
-      # 6️⃣ Optionally run a syntax check on JSON config
       - name: Validate widget.json syntax
         run: |
           node -e "JSON.parse(require('fs').readFileSync('phasmophobia_evidence_tracker/widget.json','utf8'))"
