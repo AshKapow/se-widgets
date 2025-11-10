@@ -22,12 +22,12 @@ jobs:
       # 1️⃣ Install linters and validators
       - name: Install tools
         run: |
-          npm install --global prettier eslint htmlhint stylelint prettier-plugin-handlebars
+          npm install --save-dev prettier prettier-plugin-handlebars eslint htmlhint stylelint
 
       # 2️⃣ Run Prettier check (formatting)
       - name: Check formatting with Prettier
         run: |
-          npx prettier --check "**/*.{js,html,css,json,md}" --plugin=prettier-plugin-handlebars
+          npx prettier --check "**/*.{js,html,css,json,md}"
 
       # 3️⃣ Run ESLint for JS
       - name: Lint JavaScript
