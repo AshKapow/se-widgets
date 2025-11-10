@@ -80,6 +80,7 @@ const LOCATIONS = [
   "Point Hope Lighthouse",
   "Grafton Farmhouse",
   "Bleasdale Farmhouse",
+  "Nell's Diner",
   "Brownstone HighSchool",
   "Prison",
   "Sunny Meadows",

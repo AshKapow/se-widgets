@@ -1,6 +1,6 @@
-# Welcome to Phasmophobia Evidence V4.2.2
+# Welcome to Phasmophobia Evidence V4.3.0
 
-**Updated for the Tempest Update!**
+**Updated for the Nell's Diner Update!**
 
 ## Video Tutorial
 [![Watch the video](https://img.youtube.com/vi/vkb0zO9xz1Q/default.jpg)](https://youtu.be/vkb0zO9xz1Q)
@@ -143,6 +143,7 @@ To get `Cleanse Area`
 | Point Hope | "point" "hope" |
 | Grafton | "grafton" "farmhouse" |
 | Bleasdale | "bleasdale" |
+| Nell's Diner | "nells", "diner" |
 | High School | "brownstone" "highschool" "high" "scool"|
 | Prison | "prison" |
 | Maple Lodge | "maple" "lodge" |
