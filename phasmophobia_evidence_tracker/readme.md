@@ -3,9 +3,11 @@
 **Updated for the Tempest Update!**
 
 ## Video Tutorial
+
 [![Watch the video](https://img.youtube.com/vi/vkb0zO9xz1Q/default.jpg)](https://youtu.be/vkb0zO9xz1Q)
 
 ## One Click Install Link:
+
 [Click here for the one click install link!](https://streamelements.com/dashboard/overlays/share/61d7ca3b1d6574d979bdfdcd)
 
 I made this widget for anyone who uses StreamElements that plays Phasmophobia.
@@ -16,41 +18,41 @@ IF USING THE ONE CLICK INSTALL, THE DEFAULT GHOST RESET COMMAND IS `!ghostreset`
 
 THESE CAN BE UPDATED MANUALLY BY CHANGING THE OPTION IN STREAMELEMENTS UNDER THE COMMANDS OPTION FOR THE WIDGET.
 
-| Name | Command | Action |
-|--|--|--|
-| Name Reset | !gr | Reset the ghost |
-| Name Reset| !gr "name" | Reset the ghost with the name |
-| Name Input | !gn "name" | Change name to "name" |
-| Name Input<br />(Stream Deck) | !gfn "name"<br />!gsn "name" | Change either first or last name to "name" |
-| Map Input | !map "map" | Set the map name. Replace with a command from the [map list](#Map-Names-and-Difficulties) below |
-| Difficulty Input | !diff "difficulty" | Set the map name. Replace with a command from the [map list](#Map-Names-and-Difficulties) below |
-| Toggle Sightings | !sight "sighting" | Toggles Sightings for the Location On or Off, See [Sightings](#Sightings) |
-| Toggle Possession | !poss "possession" | Toggles Possession found for the Location, Defaults to None displayed as ?, See [Cursed Possessions](#Cursed-Possessions) |
-| Toggle EMF | !ge | Cycle EMF to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage  |
-| Toggle Spirit Box | !gs | Cycle Spirit Box to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Toggle Fingerprints / Ultraviolet | !gf | Cycle Fingerprints / Ultraviolet to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Toggle Orbs | !go | Cycle Orbs to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Toggle Ghost Writing | !gw | Cycle Ghost Writing to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Toggle Freezing Temps | !gt | Cycle Freezing Temps to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Toggle Dots | !gd | Cycle Dots to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Optional Objectives | !oo "a" "b" "c"<br />!oo "a" | Set the optional objectives. Replace a, b or c with the objective you'd like below, See [Optional Objectives](#Optional-Objectives) |
-| Toggle Optional Objective 1 | !o1 | Toggles Optional Objective 1 from being marked or not |
-| Toggle Optional Objective 2 | !o2 | Toggles Optional Objective 2 from being marked or not |
-| Toggle Optional Objective 3 | !o3 | Toggles Optional Objective 3 from being marked or not |
-| Set Counter Name | !setcounter "phrase"<br />!setcounter2 "phrase" | Set's the phrase before the number in the counter |
-| Set Counter Number | !setcounternumber "num"<br />!setcounter2number "num" | Set's the number in the counter to the number input |
-| Increment the counter by 1 | !counterup<br />!counter2up | Adds one to the counter number |
-| Decrement the counter by 1 | !counterdown<br />!counter2down | Subtracts one from the counter number |
+| Name                              | Command                                               | Action                                                                                                                              |
+| --------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Name Reset                        | !gr                                                   | Reset the ghost                                                                                                                     |
+| Name Reset                        | !gr "name"                                            | Reset the ghost with the name                                                                                                       |
+| Name Input                        | !gn "name"                                            | Change name to "name"                                                                                                               |
+| Name Input<br />(Stream Deck)     | !gfn "name"<br />!gsn "name"                          | Change either first or last name to "name"                                                                                          |
+| Map Input                         | !map "map"                                            | Set the map name. Replace with a command from the [map list](#Map-Names-and-Difficulties) below                                     |
+| Difficulty Input                  | !diff "difficulty"                                    | Set the map name. Replace with a command from the [map list](#Map-Names-and-Difficulties) below                                     |
+| Toggle Sightings                  | !sight "sighting"                                     | Toggles Sightings for the Location On or Off, See [Sightings](#Sightings)                                                           |
+| Toggle Possession                 | !poss "possession"                                    | Toggles Possession found for the Location, Defaults to None displayed as ?, See [Cursed Possessions](#Cursed-Possessions)           |
+| Toggle EMF                        | !ge                                                   | Cycle EMF to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                                            |
+| Toggle Spirit Box                 | !gs                                                   | Cycle Spirit Box to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                                     |
+| Toggle Fingerprints / Ultraviolet | !gf                                                   | Cycle Fingerprints / Ultraviolet to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                     |
+| Toggle Orbs                       | !go                                                   | Cycle Orbs to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                                           |
+| Toggle Ghost Writing              | !gw                                                   | Cycle Ghost Writing to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                                  |
+| Toggle Freezing Temps             | !gt                                                   | Cycle Freezing Temps to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                                 |
+| Toggle Dots                       | !gd                                                   | Cycle Dots to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage                                           |
+| Optional Objectives               | !oo "a" "b" "c"<br />!oo "a"                          | Set the optional objectives. Replace a, b or c with the objective you'd like below, See [Optional Objectives](#Optional-Objectives) |
+| Toggle Optional Objective 1       | !o1                                                   | Toggles Optional Objective 1 from being marked or not                                                                               |
+| Toggle Optional Objective 2       | !o2                                                   | Toggles Optional Objective 2 from being marked or not                                                                               |
+| Toggle Optional Objective 3       | !o3                                                   | Toggles Optional Objective 3 from being marked or not                                                                               |
+| Set Counter Name                  | !setcounter "phrase"<br />!setcounter2 "phrase"       | Set's the phrase before the number in the counter                                                                                   |
+| Set Counter Number                | !setcounternumber "num"<br />!setcounter2number "num" | Set's the number in the counter to the number input                                                                                 |
+| Increment the counter by 1        | !counterup<br />!counter2up                           | Adds one to the counter number                                                                                                      |
+| Decrement the counter by 1        | !counterdown<br />!counter2down                       | Subtracts one from the counter number                                                                                               |
 
 ## Toggle Evidence Advanced Usage
 
 You can manually set evidence using extra parameters
 
-| Result | Argument |
-|--|--|
-| Turn Evidence On | "o" "on" |
+| Result                 | Argument                 |
+| ---------------------- | ------------------------ |
+| Turn Evidence On       | "o" "on"                 |
 | Turn Evidence Negative | "x" "n" "neg" "negative" |
-| Turn Evidence Off | "f" "off" |
+| Turn Evidence Off      | "f" "off"                |
 
 ### Example Usage:
 
@@ -77,44 +79,44 @@ Off -> On -> Negative -> Off -> On -> Negative -> Off -> etc.
 
 ## Optional Objectives
 
-| Objective | Phrases for Regex Match |
-|--|--|
-| Motion Sensor | "motion" |
-| Salt | "salt" |
-| Photo | "photo" "camera" |
-| Event | "event" |
-| EMF | "emf" |
-| Crucifix | "crucifix" |
-| Cleanse Area (Non-Hunt) | "cleanse" "smudge" |
-| Escape | "escape" |
-| Repel Ghost (During Hunt) | "repel" "hunt" |
-| <25% Sanity | "sanity" |
-| Firelight | "firelight" "candle" |
-| Parabolic Microphone | "microphone" |
+| Objective                 | Phrases for Regex Match |
+| ------------------------- | ----------------------- |
+| Motion Sensor             | "motion"                |
+| Salt                      | "salt"                  |
+| Photo                     | "photo" "camera"        |
+| Event                     | "event"                 |
+| EMF                       | "emf"                   |
+| Crucifix                  | "crucifix"              |
+| Cleanse Area (Non-Hunt)   | "cleanse" "smudge"      |
+| Escape                    | "escape"                |
+| Repel Ghost (During Hunt) | "repel" "hunt"          |
+| <25% Sanity               | "sanity"                |
+| Firelight                 | "firelight" "candle"    |
+| Parabolic Microphone      | "microphone"            |
 
 ## Sightings
 
 Sightings phrases are user defined and can be set in **Settings > Commands**
 
-| Sighting | Default Phrases |
-|--|--|
-| Bone | "bone" "boner" |
-| Slenderman | "slender" "slenderman" "man" |
+| Sighting    | Default Phrases              |
+| ----------- | ---------------------------- |
+| Bone        | "bone" "boner"               |
+| Slenderman  | "slender" "slenderman" "man" |
 | Dirty Water | "dirtywater" "dirty" "water" |
 
 ## Cursed Possession
 
 Possession phrases are user defined and can be set in **Settings > Commands**
 
-| Possession | Default Phrases |
-|--|--|
-|Tortured Voodoo Doll | "tortured voodoo doll" "voodoo doll" "voodoo" "doll" |
-|Cursed Mirror| "mirror" |
-|Music Box| "music box" "music" "box" |
-|Summoning Circle| "summoning circle" "summoning" "summon" "circle" |
-|Tarot Cards| "tarot cards" "tarot" "cards" |
-|Ouija Board| "ouija board" "ouija" "board" |
-|Monkey Paw| "monkey paw" "monkey" "paw" |
+| Possession           | Default Phrases                                      |
+| -------------------- | ---------------------------------------------------- |
+| Tortured Voodoo Doll | "tortured voodoo doll" "voodoo doll" "voodoo" "doll" |
+| Cursed Mirror        | "mirror"                                             |
+| Music Box            | "music box" "music" "box"                            |
+| Summoning Circle     | "summoning circle" "summoning" "summon" "circle"     |
+| Tarot Cards          | "tarot cards" "tarot" "cards"                        |
+| Ouija Board          | "ouija board" "ouija" "board"                        |
+| Monkey Paw           | "monkey paw" "monkey" "paw"                          |
 
 ### Example Usage:
 
@@ -134,31 +136,31 @@ To get `Cleanse Area`
 
 ## Map Names and Difficulties
 
-| Map | Phrases for Regex Match |
-|--|--|
-| Tanglewood | "tanglewood" "drive" |
-| Willow | "willow" "street" |
-| Edgefield | "edgefield" "road" |
-| Ridgeview | "ridgeview" "court" |
-| Point Hope | "point" "hope" |
-| Grafton | "grafton" "farmhouse" |
-| Bleasdale | "bleasdale" |
-| High School | "brownstone" "highschool" "high" "scool"|
-| Prison | "prison" |
-| Maple Lodge | "maple" "lodge" |
-| Camp Woodwind | "camp" "wood" "wind" |
-| Sunny Meadows | "sunny" "meadows" |
-| Sunny Meadows (Restricted) | "restricted" |
+| Map                        | Phrases for Regex Match                  |
+| -------------------------- | ---------------------------------------- |
+| Tanglewood                 | "tanglewood" "drive"                     |
+| Willow                     | "willow" "street"                        |
+| Edgefield                  | "edgefield" "road"                       |
+| Ridgeview                  | "ridgeview" "court"                      |
+| Point Hope                 | "point" "hope"                           |
+| Grafton                    | "grafton" "farmhouse"                    |
+| Bleasdale                  | "bleasdale"                              |
+| High School                | "brownstone" "highschool" "high" "scool" |
+| Prison                     | "prison"                                 |
+| Maple Lodge                | "maple" "lodge"                          |
+| Camp Woodwind              | "camp" "wood" "wind"                     |
+| Sunny Meadows              | "sunny" "meadows"                        |
+| Sunny Meadows (Restricted) | "restricted"                             |
 
-| Difficulty | Phrase for Regex Match |
-|--|--|
-| Amateur | "amateur" |
-| Intermediate | "intermediate" |
-| Professional |  "professional" |
-| Nightmare |  "nightmare" |
-| Insanity | "insanity" |
-| Challenge | "challenge" |
-| Custom | "custom" |
+| Difficulty   | Phrase for Regex Match |
+| ------------ | ---------------------- |
+| Amateur      | "amateur"              |
+| Intermediate | "intermediate"         |
+| Professional | "professional"         |
+| Nightmare    | "nightmare"            |
+| Insanity     | "insanity"             |
+| Challenge    | "challenge"            |
+| Custom       | "custom"               |
 
 ### Example Usage:
 
@@ -187,10 +189,11 @@ To get `Prison Intermediate`
 3. Select the Widget under Layers on the left. Select Open Editor. This will give you a code screen with several tabs. DON'T BE SCARED. For each tab, delete everything that exists and paste the related content from the files listed in this folder into the editor and save.
 
 ### Custom Widget Configuration Mapping
-| **Custom Widget Section** | **File/Content** |
-|--|--|
-|***html***|[widget.html](widget.html?raw=1){:target="_blank"}|
-|***css***|[widget.css](widget.css?raw=1){:target="_blank"}|
-|***js***|[widget.js](widget.js?raw=1){:target="_blank"}|
-|***fields***|[widget.json](widget.json?raw=1){:target="_blank"}|
-|***data***|Input just -> `{ }`|
+
+| **Custom Widget Section** | **File/Content**                                    |
+| ------------------------- | --------------------------------------------------- |
+| **_html_**                | [widget.html](widget.html?raw=1){:target="\_blank"} |
+| **_css_**                 | [widget.css](widget.css?raw=1){:target="\_blank"}   |
+| **_js_**                  | [widget.js](widget.js?raw=1){:target="\_blank"}     |
+| **_fields_**              | [widget.json](widget.json?raw=1){:target="\_blank"} |
+| **_data_**                | Input just -> `{ }`                                 |
