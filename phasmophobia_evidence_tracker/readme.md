@@ -28,7 +28,7 @@ THESE CAN BE UPDATED MANUALLY BY CHANGING THE OPTION IN STREAMELEMENTS UNDER THE
 | Toggle Possession | !poss "possession" | Toggles Possession found for the Location, Defaults to None displayed as ?, See [Cursed Possessions](#Cursed-Possessions) |
 | Toggle EMF | !ge | Cycle EMF to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage  |
 | Toggle Spirit Box | !gs | Cycle Spirit Box to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
-| Toggle Fingerprints | !gf | Cycle Fingerprints to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
+| Toggle Fingerprints / Ultraviolet | !gf | Cycle Fingerprints / Ultraviolet to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
 | Toggle Orbs | !go | Cycle Orbs to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
 | Toggle Ghost Writing | !gw | Cycle Ghost Writing to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
 | Toggle Freezing Temps | !gt | Cycle Freezing Temps to next state: Off -> On -> Negative -> Off <br/> See below for advanced usage |
@@ -85,12 +85,11 @@ Off -> On -> Negative -> Off -> On -> Negative -> Off -> etc.
 | Event | "event" |
 | EMF | "emf" |
 | Crucifix | "crucifix" |
-| Smudge Ghost (NON-Hunt) | "smudge" |
+| Cleanse Area (Non-Hunt) | "cleanse" "smudge" |
 | Escape | "escape" |
-| Smudge Ghost (During Hunt) | "hunt" |
-| Repel Ghost (During Hunt) - smudge during hunt | "repel" |
+| Repel Ghost (During Hunt) | "repel" "hunt" |
 | <25% Sanity | "sanity" |
-| Candle | "candle" |
+| Firelight | "firelight" "candle" |
 | Parabolic Microphone | "microphone" |
 
 ## Sightings
@@ -129,9 +128,9 @@ To get `Crucifix Motion Salt`
 
 Individual Objectives can be used and can be toggled on and off
 
-To get `Smudge`
+To get `Cleanse Area`
 
-    !oo smudge
+    !oo cleanse
 
 ## Map Names and Difficulties
 
@@ -141,6 +140,7 @@ To get `Smudge`
 | Willow | "willow" "street" |
 | Edgefield | "edgefield" "road" |
 | Ridgeview | "ridgeview" "court" |
+| Point Hope | "point" "hope" |
 | Grafton | "grafton" "farmhouse" |
 | Bleasdale | "bleasdale" |
 | High School | "brownstone" "highschool" "high" "scool"|
