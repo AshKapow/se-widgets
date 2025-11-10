@@ -27,7 +27,7 @@ jobs:
       # 2️⃣ Run Prettier check (formatting)
       - name: Check formatting with Prettier
         run: |
-          npx prettier --check "**/*.{js,html,css,json,md}"
+          npx prettier --check "**/*.{js,html,css,json,md}" --ignore-path .prettierignore
 
       # 3️⃣ Run ESLint for JS
       - name: Lint JavaScript
