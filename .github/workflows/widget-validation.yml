@@ -21,7 +21,7 @@ jobs:
 
       - name: Install tools
         run: |
-          npm install --save-dev prettier@latest eslint@latest htmlhint@latest stylelint@latest
+          npm install --save-dev prettier@latest eslint@latest htmlhint@latest stylelint@latest @eslint/js
 
       - name: Check formatting with Prettier
         run: |
