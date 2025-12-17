@@ -80,6 +80,7 @@ const LOCATIONS = [
   "Point Hope Lighthouse",
   "Grafton Farmhouse",
   "Bleasdale Farmhouse",
+  "Nell's Diner",
   "Brownstone HighSchool",
   "Prison",
   "Sunny Meadows",
@@ -1461,18 +1462,27 @@ const getDifficultyString = (difficulty) => {
 };
 
 const getValueFromArray = (theArray, string, fromStart = false) => {
-  const regexMatch = (fromStart) ? new RegExp(`^${string}`, "gi") : new RegExp(`${string}`, "gi");
-  const restricted = new RegExp('restricted', 'gi'); const sunny = new RegExp('^Sunny Meadows$', "gi");
-  var result
-  for (var i = 0; i < theArray.length; i++) {
-      const entry = theArray[i];
-      if (entry.match(regexMatch)) {
-        result = entry;
-        break;
-      }
-   }
-  return result
+  const safeString = string.replace(/['’]/g, "");
+
+  const regexMatch = fromStart
+    ? new RegExp(`^${safeString}`, "gi")
+    : new RegExp(`${safeString}`, "gi");
+
+  const restricted = new RegExp("restricted", "gi");
+  const sunny = new RegExp("^Sunny Meadows$", "gi");
+
+  let result;
+  for (let i = 0; i < theArray.length; i++) {
+    const entry = theArray[i];
+    const entryNoApostrophe = entry.replace(/['’]/g, "");
+    if (entry.match(regexMatch) || entryNoApostrophe.match(regexMatch)) {
+      result = entry;
+      break;
+    }
+  }
+  return result;
 };
+
 
 function getValueFromObject(object, string) {
   for (const [key, value] of Object.entries(object)) {
