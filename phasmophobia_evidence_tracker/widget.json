@@ -796,6 +796,12 @@
     "value": "",
     "group": "Conclusion Messages - Empty for Default"
   },
+  "dayanString": {
+    "type": "text",
+    "label": "Dayan",
+    "value": "",
+    "group": "Conclusion Messages - Empty for Default"
+  },
   "demonString": {
     "type": "text",
     "label": "Demon",
@@ -805,6 +811,12 @@
   "deogenString": {
     "type": "text",
     "label": "Deogen",
+    "value": "",
+    "group": "Conclusion Messages - Empty for Default"
+  },
+  "galluString": {
+    "type": "text",
+    "label": "Gallu",
     "value": "",
     "group": "Conclusion Messages - Empty for Default"
   },
@@ -853,6 +865,12 @@
   "obakeString": {
     "type": "text",
     "label": "Obake",
+    "value": "",
+    "group": "Conclusion Messages - Empty for Default"
+  },
+  "obamboString": {
+    "type": "text",
+    "label": "Obambo",
     "value": "",
     "group": "Conclusion Messages - Empty for Default"
   },

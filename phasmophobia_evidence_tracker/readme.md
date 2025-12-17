@@ -1,6 +1,6 @@
 # Welcome to Phasmophobia Evidence V4.3.0
 
-**Updated for Nell’s Diner v0.15.0.0**
+**Updated for Winter’s Jest v0.15.1.0**
 
 ## Video Tutorial
 [![Watch the video](https://img.youtube.com/vi/vkb0zO9xz1Q/default.jpg)](https://youtu.be/vkb0zO9xz1Q)
