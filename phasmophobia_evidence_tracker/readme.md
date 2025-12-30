@@ -2,6 +2,40 @@
 
 **Updated for Winter’s Jest v0.15.1.0**
 
+## Fork Notice & Attribution
+
+This repository is a **fork** of the original **StreamElements Phasmophobia Widgets** project created by **GlitchedMythos**.
+
+All original concept, design, structure, and functionality belong entirely to the original author.  
+**Full credit goes to GlitchedMythos.**
+
+This fork exists solely to keep the project **up to date with current Phasmophobia game versions**.
+
+### Scope of this fork
+- Updates data, mappings, and logic only where required for game compatibility
+- Maintains full feature parity with the original project
+- Preserves original behaviour, layout, and intent
+
+### Explicit non-goals
+- No new features
+- No behavioural changes
+- No redesigns or workflow alterations
+
+This fork is for maintenance, not divergence.
+
+### One Click Install Link (StreamElements)
+The **One Click Install Link** is managed entirely within StreamElements and **cannot be updated from this repository**.
+
+As a result:
+- This fork does **not** update or replace the One Click Install Link
+- Only the widget source code in this repository is kept current
+
+If you rely on the One Click Install version, it may lag behind game updates.  
+To use the latest updates from this fork, the widget must be installed manually by copying the files into a StreamElements Custom Widget.
+
+### Original Repository
+https://github.com/GlitchedMythos/se-widgets
+
 ## Video Tutorial
 [![Watch the video](https://img.youtube.com/vi/vkb0zO9xz1Q/default.jpg)](https://youtu.be/vkb0zO9xz1Q)
 
