@@ -6,8 +6,10 @@ const version = "4.2.3 (Ascension)";
 // 0 is false
 
 const BANSHEE = "0000111",
+  DAYAN = "1010100",
   DEMON = "0101010",
   DEOGEN = "0011001",
+  GALLU = "1010010",
   GORYO = "1000011",
   HANTU = "0100110",
   JINN = "1100010",
@@ -16,6 +18,7 @@ const BANSHEE = "0000111",
   MOROI = "0111000",
   MYLING = "1001010",
   OBAKE = "1000110",
+  OBAMBO = "0001011",
   ONI = "1100001",
   ONRYO = "0110100",
   PHANTOM = "0010011",
@@ -564,6 +567,14 @@ window.addEventListener("onWidgetLoad", function (obj) {
       evidence: BANSHEE,
     },
     {
+      type: "Dayan",
+      conclusion: createGhostConclusionString(
+        fieldData["dayanString"],
+        "Dayan"
+      ),
+      evidence: DAYAN,
+    },
+    {
       type: "Demon",
       conclusion: createGhostConclusionString(
         fieldData["demonString"],
@@ -578,6 +589,14 @@ window.addEventListener("onWidgetLoad", function (obj) {
         "Deogen"
       ),
       evidence: DEOGEN,
+    },
+    {
+      type: "Gallu",
+      conclusion: createGhostConclusionString(
+        fieldData["galluString"],
+        "Gallu"
+      ),
+      evidence: GALLU,
     },
     {
       type: "Goryo",
@@ -636,6 +655,14 @@ window.addEventListener("onWidgetLoad", function (obj) {
         "Obake"
       ),
       evidence: OBAKE,
+    },
+    {
+      type: "Obambo",
+      conclusion: createGhostConclusionString(
+        fieldData["obamboString"],
+        "Obambo"
+      ),
+      evidence: OBAMBO,
     },
     {
       type: "Oni",
